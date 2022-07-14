@@ -4,105 +4,207 @@
         <meta charset="utf-8" />
         <link rel="icon" href="./favicon.png" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <meta http-equiv="content-security-policy" content="">
-	<link rel="stylesheet" href="/_app/immutable/assets/pages/index.svelte-4d883b6b.css">
-	<link rel="stylesheet" href="/_app/immutable/assets/NavBar-87ebd8ec.css">
-	<link rel="modulepreload" href="/_app/immutable/start-6712f1fb.js">
-	<link rel="modulepreload" href="/_app/immutable/chunks/index-75f3aeed.js">
-	<link rel="modulepreload" href="/_app/immutable/layout.svelte-7b2db9c4.js">
-	<link rel="modulepreload" href="/_app/immutable/pages/index.svelte-967eef03.js">
-	<link rel="modulepreload" href="/_app/immutable/chunks/NavBar-760badf7.js">
+        <meta http-equiv="content-security-policy" content="" />
+        <link
+            rel="stylesheet"
+            href="./_app/immutable/assets/pages/index.svelte-4d883b6b.css"
+        />
+        <link
+            rel="stylesheet"
+            href="./_app/immutable/assets/NavBar-87ebd8ec.css"
+        />
+        <link rel="modulepreload" href="./_app/immutable/start-6712f1fb.js" />
+        <link
+            rel="modulepreload"
+            href="./_app/immutable/chunks/index-75f3aeed.js"
+        />
+        <link
+            rel="modulepreload"
+            href="./_app/immutable/layout.svelte-7b2db9c4.js"
+        />
+        <link
+            rel="modulepreload"
+            href="./_app/immutable/pages/index.svelte-967eef03.js"
+        />
+        <link
+            rel="modulepreload"
+            href="./_app/immutable/chunks/NavBar-760badf7.js"
+        />
     </head>
     <body>
         <div>
+            <title>SpamSlayerHub</title>
+            <main>
+                <nav id="navbar" class="svelte-csin26">
+                    <ul class="svelte-csin26">
+                        <a href="#home" class="svelte-csin26"
+                            ><li class="svelte-csin26">home</li></a
+                        >
+                        <a href="#about" class="svelte-csin26"
+                            ><li class="svelte-csin26">about</li></a
+                        >
+                        <a href="#projects" class="svelte-csin26"
+                            ><li class="svelte-csin26">projects</li></a
+                        >
+                        <a href="#tools" class="svelte-csin26"
+                            ><li class="svelte-csin26">tools</li></a
+                        >
 
+                        <a href="javascript:void(0);" class="svelte-csin26"
+                            ><li id="theme-toggle" class="svelte-csin26">
+                                dark theme
+                            </li></a
+                        >
+                    </ul>
+                </nav>
+                <div id="home" class="svelte-e5vk6o">
+                    <img
+                        id="taiga-icon"
+                        src="./_app/immutable/assets/taiga-60562ae9.png"
+                        alt="taiga"
+                        class="svelte-e5vk6o"
+                    />
+                    <h1 class="svelte-e5vk6o">SpamSlayerHub</h1>
+                    <p class="svelte-e5vk6o">where mod tools live</p>
+                </div>
+                <div id="about" class="svelte-mgfsl6">
+                    <h1 class="svelte-mgfsl6">About Us</h1>
+                    <p class="svelte-mgfsl6">
+                        ​ We are a group of reddit moderators that decided to
+                        come toghether to adress problems we all had with the
+                        plataform, notably, <b>spam</b>. By adding up our
+                        expertise in different fields we were able to create
+                        different tools and projects to make your life as a
+                        moderator easier.
+                    </p>
+                    <p class="svelte-mgfsl6">
+                        ​ All of the services that we pubicly provide are free
+                        and open source (<a
+                            target="_blank"
+                            href="https://github.com/spamslayerhub/spamslayerhub.github.io"
+                            ><i>even this very website</i></a
+                        >), so feel free to experiemnt with your own versions
+                        and configurations, if you need anything feel free to
+                        join our development/help
+                        <a href="https://discord.gg/RkUF87GZWD" target="_blank"
+                            >discord server</a
+                        >!
+                    </p>
+                    <p
+                        style="color: gray; font-style: italic"
+                        class="svelte-mgfsl6"
+                    >
+                        // team members here probably
+                    </p>
+                </div>
+                <div id="projects" class="svelte-1q261wi">
+                    <h1 class="svelte-1q261wi">Our Projects</h1>
 
+                    <ol class="svelte-1q261wi">
+                        <li>
+                            <h2 class="svelte-10b03s3">
+                                <a
+                                    class="title-link svelte-10b03s3"
+                                    href="https://github.com/guiloj/HSpamSlayer"
+                                    target="_blank"
+                                    >HSpamSlayer</a
+                                >
+                            </h2>
+                            <p>
+                                ​ A bot made to keep away undesired cosspost
+                                spam from malicious subreddits hosted by bad
+                                actors trying to promote scam links. To get this
+                                service you just need to follow
+                                <a
+                                    href="https://github.com/guiloj/HSpamSlayer#setup"
+                                    target="_blank"
+                                    >these instructions</a
+                                >. Also if you know python feel free to
+                                <a
+                                    href="https://github.com/guiloj/HSpamSlayer/blob/master/doc/contribute.md"
+                                    target="_blank"
+                                    >contribute</a
+                                >!
+                            </p>
+                        </li>
+                        <li>
+                            <h2 class="svelte-10b03s3">
+                                <a
+                                    class="title-link svelte-10b03s3"
+                                    href="./projects/automod-sheet.html"
+                                    target="_self"
+                                    >AutoMod Anti-Spam Cheat Sheet</a
+                                >
+                            </h2>
+                            <p>
+                                ​ A big compilation of essential anti-spam rules
+                                for Auto Mod that will help you filter unwanted
+                                links and messages from your comments and posts.
+                                A page dedicated to this is coming soon!
+                            </p>
+                        </li>
+                    </ol>
+                </div>
+                <div id="tools" class="svelte-dwwy05">
+                    <h1 class="svelte-dwwy05">Project Tools</h1>
+                    <ol class="svelte-dwwy05">
+                        <li>
+                            <h2 class="svelte-10b03s3">
+                                <a
+                                    class="title-link svelte-10b03s3"
+                                    href="./tools/hss-sub-configs.html"
+                                    target="_self"
+                                    >HSpamSlayer Sub Config Helper</a
+                                >
+                            </h2>
+                            <p>
+                                ​ A tool to help you manage and create a
+                                HSpamSlayer configuration files for specific
+                                subreddits that you moderate, with helpful
+                                descriptions, great defaults and filters that
+                                help your config file be processed without any
+                                errors.
+                            </p>
+                        </li>
+                    </ol>
+                </div>
+                <footer class="svelte-1lskmrg">
+                    <p class="svelte-1lskmrg">
+                        Powered by
+                        <a
+                            href="https://pages.github.com/"
+                            target="_blank"
+                            class="svelte-1lskmrg"
+                            >GitHub Pages</a
+                        >
+                        &amp;
+                        <a href="https://svelte.dev/" class="svelte-1lskmrg"
+                            >Svelte</a
+                        >
+                    </p>
+                </footer>
+            </main>
 
-
-<title>SpamSlayerHub</title>
-<main><nav id="navbar" class="svelte-csin26"><ul class="svelte-csin26"><a href="#home" class="svelte-csin26"><li class="svelte-csin26">home</li></a>
-        <a href="#about" class="svelte-csin26"><li class="svelte-csin26">about</li></a>
-        <a href="#projects" class="svelte-csin26"><li class="svelte-csin26">projects</li></a>
-        <a href="#tools" class="svelte-csin26"><li class="svelte-csin26">tools</li></a>
-        
-        <a href="javascript:void(0);" class="svelte-csin26"><li id="theme-toggle" class="svelte-csin26">dark theme</li></a></ul>
-</nav>
-    <div id="home" class="svelte-e5vk6o"><img id="taiga-icon" src="/_app/immutable/assets/taiga-60562ae9.png" alt="taiga" class="svelte-e5vk6o">
-    <h1 class="svelte-e5vk6o">SpamSlayerHub</h1>
-    <p class="svelte-e5vk6o">where mod tools live</p>
-</div>
-    <div id="about" class="svelte-mgfsl6"><h1 class="svelte-mgfsl6">About Us</h1>
-    <p class="svelte-mgfsl6">​
-We are a group of reddit moderators that decided to come
-        toghether to adress problems we all had with the plataform, notably,
-        <b>spam</b>. By adding up our expertise in different fields we were able
-        to create different tools and projects to make your life as a moderator
-        easier.
-    </p>
-    <p class="svelte-mgfsl6">​
-All of the services that we pubicly provide are free and open
-        source (<a target="_blank" href="https://github.com/spamslayerhub/spamslayerhub.github.io"><i>even this very website</i></a>), so feel free to experiemnt with your own versions and
-        configurations, if you need anything feel free to join our
-        development/help
-        <a href="https://discord.gg/RkUF87GZWD" target="_blank">discord server</a>!
-    </p>
-    <p style="color: gray; font-style: italic;" class="svelte-mgfsl6">// team members here probably
-    </p>
-</div>
-    <div id="projects" class="svelte-1q261wi"><h1 class="svelte-1q261wi">Our Projects</h1>
-
-    <ol class="svelte-1q261wi"><li><h2 class="svelte-10b03s3"><a class="title-link svelte-10b03s3" href="https://github.com/guiloj/HSpamSlayer" target="_blank">HSpamSlayer</a></h2>
-    <p>​
-A bot made to keep away undesired cosspost spam from
-            malicious subreddits hosted by bad actors trying to promote scam
-            links. To get this service you just need to follow
-            <a href="https://github.com/guiloj/HSpamSlayer#setup" target="_blank">these instructions</a>. Also if you know python feel free to
-            <a href="https://github.com/guiloj/HSpamSlayer/blob/master/doc/contribute.md" target="_blank">contribute</a>!
-        
-        </p>
-</li>
-        <li><h2 class="svelte-10b03s3"><a class="title-link svelte-10b03s3" href="/projects/automod-sheet/" target="_self">AutoMod Anti-Spam Cheat Sheet</a></h2>
-    <p>​
-A big compilation of essential anti-spam rules for Auto Mod
-            that will help you filter unwanted links and messages from your
-            comments and posts. A page dedicated to this is coming soon!
-        
-        </p>
-</li></ol>
-</div>
-    <div id="tools" class="svelte-dwwy05"><h1 class="svelte-dwwy05">Project Tools</h1>
-    <ol class="svelte-dwwy05"><li><h2 class="svelte-10b03s3"><a class="title-link svelte-10b03s3" href="/tools/hss-sub-configs" target="_self">HSpamSlayer Sub Config Helper</a></h2>
-    <p>​
-A tool to help you manage and create a HSpamSlayer
-            configuration files for specific subreddits that you moderate, with
-            helpful descriptions, great defaults and filters that help your
-            config file be processed without any errors.
-        
-        </p>
-</li></ol>
-</div>
-    <footer class="svelte-1lskmrg"><p class="svelte-1lskmrg">Powered by <a href="https://pages.github.com/" target="_blank" class="svelte-1lskmrg">GitHub Pages</a>
-            &amp; <a href="https://svelte.dev/" class="svelte-1lskmrg">Svelte</a></p></footer>
-</main>
-
-
-		<script type="module" data-sveltekit-hydrate="1cnzlnh">
-		import { start } from "/_app/immutable/start-6712f1fb.js";
-		start({
-			target: document.querySelector('[data-sveltekit-hydrate="1cnzlnh"]').parentNode,
-			paths: {"base":"","assets":""},
-			session: {},
-			route: true,
-			spa: false,
-			trailing_slash: "never",
-			hydrate: {
-				status: 200,
-				error: null,
-				nodes: [0, 2],
-				params: {},
-				routeId: ""
-			}
-		});
-	</script></div>
+            <script type="module" data-sveltekit-hydrate="1cnzlnh">
+                import { start } from './_app/immutable/start-6712f1fb.js';
+                start({
+                    target: document.querySelector(
+                        '[data-sveltekit-hydrate="1cnzlnh"]'
+                    ).parentNode,
+                    paths: { base: '', assets: '' },
+                    session: {},
+                    route: true,
+                    spa: false,
+                    trailing_slash: 'never',
+                    hydrate: {
+                        status: 200,
+                        error: null,
+                        nodes: [0, 2],
+                        params: {},
+                        routeId: '',
+                    },
+                });
+            </script>
+        </div>
     </body>
 </html>
