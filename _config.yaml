@@ -1,0 +1,26 @@
+---
+port: 4000
+host: 0.0.0.0
+safe: false
+
+### site serving configuration ###
+exclude: [README.md, .gitignore]
+include: [_app]
+
+permalink: /:title ## disables post output
+timezone: null
+lsi: false
+markdown: kramdown
+
+### content configuration ###
+title: 'SpamSlayerHub'
+keywords: 'HSpamSlayer, HSS, reddit, mod, moderator, spam'
+description: 'The home website of the HSpamSlayer bot'
+source_link: 'https://github.com/spamslayerhub/spamslayerhub.github.io'
+
+### template colors, used site-wide via css ###
+colors:
+    white: '#fff'
+
+kramdown:
+    auto_ids: false
