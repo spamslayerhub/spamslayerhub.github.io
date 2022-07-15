@@ -23,21 +23,27 @@
         --brighter-r:    calc(var(--darkest-r) + (var(--brightest-r) - var(--darkest-r)) * var(--brighter-value)); 
         --brighter-g:    calc(var(--darkest-g) + (var(--brightest-g) - var(--darkest-g)) * var(--brighter-value)); 
         --brighter-b:    calc(var(--darkest-b) + (var(--brightest-b) - var(--darkest-b)) * var(--brighter-value)); 
+
         --bright-r:      calc(var(--darkest-r) + (var(--brightest-r) - var(--darkest-r)) * var(--bright-value)); 
         --bright-g:      calc(var(--darkest-g) + (var(--brightest-g) - var(--darkest-g)) * var(--bright-value)); 
         --bright-b:      calc(var(--darkest-b) + (var(--brightest-b) - var(--darkest-b)) * var(--bright-value)); 
+
         --semi-bright-r: calc(var(--darkest-r) + (var(--brightest-r) - var(--darkest-r)) * var(--semi-bright-value)); 
         --semi-bright-g: calc(var(--darkest-g) + (var(--brightest-g) - var(--darkest-g)) * var(--semi-bright-value)); 
         --semi-bright-b: calc(var(--darkest-b) + (var(--brightest-b) - var(--darkest-b)) * var(--semi-bright-value)); 
+        
         --medium-r:      calc(var(--darkest-r) + (var(--brightest-r) - var(--darkest-r)) * var(--medium-value)); 
         --medium-g:      calc(var(--darkest-g) + (var(--brightest-g) - var(--darkest-g)) * var(--medium-value)); 
         --medium-b:      calc(var(--darkest-b) + (var(--brightest-b) - var(--darkest-b)) * var(--medium-value)); 
+        
         --semi-dark-r:   calc(var(--darkest-r) + (var(--brightest-r) - var(--darkest-r)) * var(--semi-dark-value)); 
         --semi-dark-g:   calc(var(--darkest-g) + (var(--brightest-g) - var(--darkest-g)) * var(--semi-dark-value)); 
         --semi-dark-b:   calc(var(--darkest-b) + (var(--brightest-b) - var(--darkest-b)) * var(--semi-dark-value)); 
+        
         --dark-r:        calc(var(--darkest-r) + (var(--brightest-r) - var(--darkest-r)) * var(--dark-value)); 
         --dark-g:        calc(var(--darkest-g) + (var(--brightest-g) - var(--darkest-g)) * var(--dark-value)); 
         --dark-b:        calc(var(--darkest-b) + (var(--brightest-b) - var(--darkest-b)) * var(--dark-value)); 
+        
         --darker-r:      calc(var(--darkest-r) + (var(--brightest-r) - var(--darkest-r)) * var(--darker-value)); 
         --darker-g:      calc(var(--darkest-g) + (var(--brightest-g) - var(--darkest-g)) * var(--darker-value)); 
         --darker-b:      calc(var(--darkest-b) + (var(--brightest-b) - var(--darkest-b)) * var(--darker-value)); 
