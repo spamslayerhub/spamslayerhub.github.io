@@ -5,7 +5,7 @@
 
 <Css />
 
-<title>SpamSlayerHub - </title>
+<title>SpamSlayerHub - HSS Sub Configs</title>
 <main>
     <NavBar
         home="../../#home"

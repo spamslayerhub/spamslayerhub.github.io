@@ -26,7 +26,6 @@
         text-transform: capitalize;
         text-align: center;
     }
-
     #tools ol {
         list-style: decimal-leading-zero;
         margin-left: var(--default-text-block-margin-size);

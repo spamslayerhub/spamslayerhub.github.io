@@ -34,7 +34,3 @@
         </a>
     </ul>
 </nav>
-
-<style>
-
-</style>

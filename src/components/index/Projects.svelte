@@ -26,7 +26,7 @@
         </Project>
         <Project
             title="AutoMod Anti-Spam Cheat Sheet"
-            href="/projects/automod-sheet/"
+            href="/projects/automod-sheet"
         >
             <Tab />A big compilation of essential anti-spam rules for Auto Mod
             that will help you filter unwanted links and messages from your

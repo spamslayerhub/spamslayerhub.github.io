@@ -19,31 +19,95 @@
         --dark-value: 0.25;
         --darker-value: 0.125;
 
-        --brighter-r: calc(var(--darkest-r) + (var(--brightest-r) - var(--darkest-r)) * var(--brighter-value));
-        --brighter-g: calc(var(--darkest-g) + (var(--brightest-g) - var(--darkest-g)) * var(--brighter-value));
-        --brighter-b: calc(var(--darkest-b) + (var(--brightest-b) - var(--darkest-b)) * var(--brighter-value));
-        --bright-r: calc(var(--darkest-r) + (var(--brightest-r) - var(--darkest-r)) * var(--bright-value));
-        --bright-g: calc(var(--darkest-g) + (var(--brightest-g) - var(--darkest-g)) * var(--bright-value));
-        --bright-b: calc(var(--darkest-b) + (var(--brightest-b) - var(--darkest-b)) * var(--bright-value));
-        --semi-bright-r: calc(var(--darkest-r) + (var(--brightest-r) - var(--darkest-r)) * var(--semi-bright-value));
-        --semi-bright-g: calc(var(--darkest-g) + (var(--brightest-g) - var(--darkest-g)) * var(--semi-bright-value));
-        --semi-bright-b: calc(var(--darkest-b) + (var(--brightest-b) - var(--darkest-b)) * var(--semi-bright-value));
-        --medium-r: calc(var(--darkest-r) + (var(--brightest-r) - var(--darkest-r)) * var(--medium-value));
-        --medium-g: calc(var(--darkest-g) + (var(--brightest-g) - var(--darkest-g)) * var(--medium-value));
-        --medium-b: calc(var(--darkest-b) + (var(--brightest-b) - var(--darkest-b)) * var(--medium-value));
-        --semi-dark-r: calc(var(--darkest-r) + (var(--brightest-r) - var(--darkest-r)) * var(--semi-dark-value));
-        --semi-dark-g: calc(var(--darkest-g) + (var(--brightest-g) - var(--darkest-g)) * var(--semi-dark-value));
-        --semi-dark-b: calc(var(--darkest-b) + (var(--brightest-b) - var(--darkest-b)) * var(--semi-dark-value));
-        --dark-r: calc(var(--darkest-r) + (var(--brightest-r) - var(--darkest-r)) * var(--dark-value));
-        --dark-g: calc(var(--darkest-g) + (var(--brightest-g) - var(--darkest-g)) * var(--dark-value));
-        --dark-b: calc(var(--darkest-b) + (var(--brightest-b) - var(--darkest-b)) * var(--dark-value));
-        --darker-r: calc(var(--darkest-r) + (var(--brightest-r) - var(--darkest-r)) * var(--darker-value));
-        --darker-g: calc(var(--darkest-g) + (var(--brightest-g) - var(--darkest-g)) * var(--darker-value));
-        --darker-b: calc(var(--darkest-b) + (var(--brightest-b) - var(--darkest-b)) * var(--darker-value));
+        --brighter-r: calc(
+            var(--darkest-r) + (var(--brightest-r) - var(--darkest-r)) *
+                var(--brighter-value)
+        );
+        --brighter-g: calc(
+            var(--darkest-g) + (var(--brightest-g) - var(--darkest-g)) *
+                var(--brighter-value)
+        );
+        --brighter-b: calc(
+            var(--darkest-b) + (var(--brightest-b) - var(--darkest-b)) *
+                var(--brighter-value)
+        );
+        --bright-r: calc(
+            var(--darkest-r) + (var(--brightest-r) - var(--darkest-r)) *
+                var(--bright-value)
+        );
+        --bright-g: calc(
+            var(--darkest-g) + (var(--brightest-g) - var(--darkest-g)) *
+                var(--bright-value)
+        );
+        --bright-b: calc(
+            var(--darkest-b) + (var(--brightest-b) - var(--darkest-b)) *
+                var(--bright-value)
+        );
+        --semi-bright-r: calc(
+            var(--darkest-r) + (var(--brightest-r) - var(--darkest-r)) *
+                var(--semi-bright-value)
+        );
+        --semi-bright-g: calc(
+            var(--darkest-g) + (var(--brightest-g) - var(--darkest-g)) *
+                var(--semi-bright-value)
+        );
+        --semi-bright-b: calc(
+            var(--darkest-b) + (var(--brightest-b) - var(--darkest-b)) *
+                var(--semi-bright-value)
+        );
+        --medium-r: calc(
+            var(--darkest-r) + (var(--brightest-r) - var(--darkest-r)) *
+                var(--medium-value)
+        );
+        --medium-g: calc(
+            var(--darkest-g) + (var(--brightest-g) - var(--darkest-g)) *
+                var(--medium-value)
+        );
+        --medium-b: calc(
+            var(--darkest-b) + (var(--brightest-b) - var(--darkest-b)) *
+                var(--medium-value)
+        );
+        --semi-dark-r: calc(
+            var(--darkest-r) + (var(--brightest-r) - var(--darkest-r)) *
+                var(--semi-dark-value)
+        );
+        --semi-dark-g: calc(
+            var(--darkest-g) + (var(--brightest-g) - var(--darkest-g)) *
+                var(--semi-dark-value)
+        );
+        --semi-dark-b: calc(
+            var(--darkest-b) + (var(--brightest-b) - var(--darkest-b)) *
+                var(--semi-dark-value)
+        );
+        --dark-r: calc(
+            var(--darkest-r) + (var(--brightest-r) - var(--darkest-r)) *
+                var(--dark-value)
+        );
+        --dark-g: calc(
+            var(--darkest-g) + (var(--brightest-g) - var(--darkest-g)) *
+                var(--dark-value)
+        );
+        --dark-b: calc(
+            var(--darkest-b) + (var(--brightest-b) - var(--darkest-b)) *
+                var(--dark-value)
+        );
+        --darker-r: calc(
+            var(--darkest-r) + (var(--brightest-r) - var(--darkest-r)) *
+                var(--darker-value)
+        );
+        --darker-g: calc(
+            var(--darkest-g) + (var(--brightest-g) - var(--darkest-g)) *
+                var(--darker-value)
+        );
+        --darker-b: calc(
+            var(--darkest-b) + (var(--brightest-b) - var(--darkest-b)) *
+                var(--darker-value)
+        );
 
         --brighter: var(--brighter-r), var(--brighter-g), var(--brighter-b);
         --bright: var(--bright-r), var(--bright-g), var(--bright-b);
-        --semi-bright: var(--semi-bright-r), var(--semi-bright-g), var(--semi-bright-b);
+        --semi-bright: var(--semi-bright-r), var(--semi-bright-g),
+            var(--semi-bright-b);
         --medium: var(--medium-r), var(--medium-g), var(--medium-b);
         --semi-dark: var(--semi-dark-r), var(--semi-dark-g), var(--semi-dark-b);
         --dark: var(--dark-r), var(--dark-g), var(--dark-b);
@@ -78,11 +142,31 @@
         --background-color: rgb(var(--brighter));
         --nav-hover-text-color: rgba(var(--brighter), 0.8);
         --default-text-color: rgb(var(--darkest));
-        --title1-color: hsl(var(--hss-red-h), var(--hss-semi-vibrant-s), var(--hss-semi-dark-l));
-        --title-link-color: hsl(var(--hss-orange-h), var(--hss-semi-vibrant-s), var(--hss-semi-dark-l));
-        --title-link-visited-color: hsl(var(--hss-orange-h), var(--hss-semi-muted-s), var(--hss-default-l));
-        --link-color: hsl(var(--hss-blue-h), var(--hss-semi-vibrant-s), var(--hss-default-l));
-        --link-visited-color: hsl(var(--hss-blue-h), var(--hss-semi-muted-s), var(--hss-semi-bright-l));
+        --title1-color: hsl(
+            var(--hss-red-h),
+            var(--hss-semi-vibrant-s),
+            var(--hss-semi-dark-l)
+        );
+        --title-link-color: hsl(
+            var(--hss-orange-h),
+            var(--hss-semi-vibrant-s),
+            var(--hss-semi-dark-l)
+        );
+        --title-link-visited-color: hsl(
+            var(--hss-orange-h),
+            var(--hss-semi-muted-s),
+            var(--hss-default-l)
+        );
+        --link-color: hsl(
+            var(--hss-blue-h),
+            var(--hss-semi-vibrant-s),
+            var(--hss-default-l)
+        );
+        --link-visited-color: hsl(
+            var(--hss-blue-h),
+            var(--hss-semi-muted-s),
+            var(--hss-semi-bright-l)
+        );
 
         --default-font: Cousine, Consolas, Courier, monospace;
         --default-p-font-size: 20px;
@@ -93,7 +177,7 @@
         --default-color-transition: ease-in-out 0.3s;
         --default-top-padding: 60px;
     }
-    
+
     @media only screen and (max-width: 800px) {
         :global(:root) {
             --default-p-font-size: 20px;
@@ -111,16 +195,40 @@
     }
 
     :global(body.dark-mode) {
-        --nav-color: hsl(var(--hss-blue-h), var(--hss-default-s), var(--hss-brighter-l));
+        --nav-color: hsl(
+            var(--hss-blue-h),
+            var(--hss-default-s),
+            var(--hss-brighter-l)
+        );
         --nav-text-color: rgb(var(--darkest));
         --nav-hover-text-color: rgba(var(--darkest), 0.8);
         --background-color: rgb(var(--darkest));
         --default-text-color: rgb(var(--bright));
-        --title1-color: hsl(var(--hss-blue-h), var(--hss-vibrant-s), var(--hss-brighter-l));
-        --title-link-color: hsl(var(--hss-blue-h), var(--hss-semi-vibrant-s), var(--hss-brighter-l));
-        --title-link-visited-color: hsl(var(--hss-blue-h), var(--hss-default-s), var(--hss-semi-bright-l));
-        --link-color: hsl(var(--hss-yellow-h), var(--hss-semi-vibrant-s), var(--hss-brighter-l));
-        --link-visited-color: hsl(var(--hss-yellow-h), var(--hss-semi-muted-s), var(--hss-semi-bright-l));
+        --title1-color: hsl(
+            var(--hss-blue-h),
+            var(--hss-vibrant-s),
+            var(--hss-brighter-l)
+        );
+        --title-link-color: hsl(
+            var(--hss-blue-h),
+            var(--hss-semi-vibrant-s),
+            var(--hss-brighter-l)
+        );
+        --title-link-visited-color: hsl(
+            var(--hss-blue-h),
+            var(--hss-default-s),
+            var(--hss-semi-bright-l)
+        );
+        --link-color: hsl(
+            var(--hss-yellow-h),
+            var(--hss-semi-vibrant-s),
+            var(--hss-brighter-l)
+        );
+        --link-visited-color: hsl(
+            var(--hss-yellow-h),
+            var(--hss-semi-muted-s),
+            var(--hss-semi-bright-l)
+        );
     }
 
     * {
