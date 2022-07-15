@@ -53,34 +53,36 @@
     :global(:root) {
         --hss-red-h: 355;
         --hss-green-h: 134;
-        --hss-blue-h: 220;
+        --hss-blue-h: 218;
         --hss-yellow-h: 33;
-        --hss-orange-h: 12;
+        --hss-orange-h: 25;
         --hss-default-s: 40%;
-        --hss-vibrant-s: 55%;
-        --hss-muted-s: 33%;
+        --hss-vibrant-s: 65%;
+        --hss-semi-vibrant-s: 55%;
+        --hss-semi-muted-s: 33%;
+        --hss-muted-s: 25%;
         --hss-default-l: 50%;
         --hss-brightest-l: 80%;
-        --hss-brighter-l: 74%;
-        --hss-bright-l: 67%;
-        --hss-semi-bright-l: 60%;
-        --hss-semi-dark-l: 40%;
-        --hss-dark-l: 33%;
-        --hss-darker-l: 26%;
+        --hss-brighter-l: 72%;
+        --hss-bright-l: 64%;
+        --hss-semi-bright-l: 57%;
+        --hss-semi-dark-l: 43%;
+        --hss-dark-l: 36%;
+        --hss-darker-l: 28%;
         --hss-darkest-l: 20%;
     }
 
     :global(:root) {
-        --nav-color: hsl(var(--hss-red-h), var(--hss-default-s), var(--hss-darkest-l));
+        --nav-color: hsl(var(--hss-red-h), var(--hss-vibrant-s), var(--hss-darker-l));
         --nav-text-color: rgb(var(--brighter));
         --background-color: rgb(var(--brighter));
         --nav-hover-text-color: rgba(var(--brighter), 0.8);
         --default-text-color: rgb(var(--darkest));
-        --title1-color: hsl(var(--hss-red-h), var(--hss-vibrant-s), var(--hss-dark-l));
-        --title-link-color: hsl(var(--hss-blue-h), var(--hss-vibrant-s), var(--hss-darker-l));
-        --title-link-visited-color: hsl(var(--hss-blue-h), var(--hss-muted-s), var(--hss-default-l));
-        --link-color: hsl(var(--hss-blue-h), var(--hss-vibrant-s), var(--hss-default-l));
-        --link-visited-color: hsl(var(--hss-blue-h), var(--hss-muted-s), var(--hss-semi-dark-l));
+        --title1-color: hsl(var(--hss-red-h), var(--hss-semi-vibrant-s), var(--hss-semi-dark-l));
+        --title-link-color: hsl(var(--hss-orange-h), var(--hss-semi-vibrant-s), var(--hss-semi-dark-l));
+        --title-link-visited-color: hsl(var(--hss-orange-h), var(--hss-semi-muted-s), var(--hss-default-l));
+        --link-color: hsl(var(--hss-blue-h), var(--hss-semi-vibrant-s), var(--hss-default-l));
+        --link-visited-color: hsl(var(--hss-blue-h), var(--hss-semi-muted-s), var(--hss-semi-bright-l));
 
         --default-font: Cousine, Consolas, Courier, monospace;
         --default-p-font-size: 20px;
@@ -109,16 +111,16 @@
     }
 
     :global(body.dark-mode) {
-        --nav-color: hsl(var(--hss-blue-h), var(--hss-muted-s), var(--hss-bright-l));
+        --nav-color: hsl(var(--hss-blue-h), var(--hss-default-s), var(--hss-brighter-l));
         --nav-text-color: rgb(var(--darkest));
         --nav-hover-text-color: rgba(var(--darkest), 0.8);
         --background-color: rgb(var(--darkest));
         --default-text-color: rgb(var(--bright));
         --title1-color: hsl(var(--hss-blue-h), var(--hss-vibrant-s), var(--hss-brighter-l));
-        --title-link-color: hsl(var(--hss-yellow-h), var(--hss-default-s), var(--hss-brighter-l));
-        --title-link-visited-color: hsl(var(--hss-yellow-h), var(--hss-muted-s), var(--hss-default-l));
-        --link-color: hsl(var(--hss-yellow-h), var(--hss-vibrant-s), var(--hss-brighter-l));
-        --link-visited-color: hsl(var(--hss-yellow-h), var(--hss-muted-s), var(--hss-semi-bright-l));
+        --title-link-color: hsl(var(--hss-blue-h), var(--hss-semi-vibrant-s), var(--hss-brighter-l));
+        --title-link-visited-color: hsl(var(--hss-blue-h), var(--hss-default-s), var(--hss-semi-bright-l));
+        --link-color: hsl(var(--hss-yellow-h), var(--hss-semi-vibrant-s), var(--hss-brighter-l));
+        --link-visited-color: hsl(var(--hss-yellow-h), var(--hss-semi-muted-s), var(--hss-semi-bright-l));
     }
 
     * {
