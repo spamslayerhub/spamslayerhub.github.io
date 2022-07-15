@@ -73,7 +73,7 @@
     }
 
     :global(:root) {
-        --nav-color: hsl(var(--hss-red-h), var(--hss-vibrant-s), var(--hss-darker-l));
+        --nav-color: rgb(var(--darkest));
         --nav-text-color: rgb(var(--brighter));
         --background-color: rgb(var(--brighter));
         --nav-hover-text-color: rgba(var(--brighter), 0.8);
