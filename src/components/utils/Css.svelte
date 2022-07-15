@@ -1,6 +1,7 @@
 <style global>
     @import url('https://fonts.googleapis.com/css2?family=Cousine:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 
+    /* prettier-ignore */
     :global(:root) {
         --brightest-r: 242;
         --brightest-g: 242;
@@ -19,95 +20,31 @@
         --dark-value: 0.25;
         --darker-value: 0.125;
 
-        --brighter-r: calc(
-            var(--darkest-r) + (var(--brightest-r) - var(--darkest-r)) *
-                var(--brighter-value)
-        );
-        --brighter-g: calc(
-            var(--darkest-g) + (var(--brightest-g) - var(--darkest-g)) *
-                var(--brighter-value)
-        );
-        --brighter-b: calc(
-            var(--darkest-b) + (var(--brightest-b) - var(--darkest-b)) *
-                var(--brighter-value)
-        );
-        --bright-r: calc(
-            var(--darkest-r) + (var(--brightest-r) - var(--darkest-r)) *
-                var(--bright-value)
-        );
-        --bright-g: calc(
-            var(--darkest-g) + (var(--brightest-g) - var(--darkest-g)) *
-                var(--bright-value)
-        );
-        --bright-b: calc(
-            var(--darkest-b) + (var(--brightest-b) - var(--darkest-b)) *
-                var(--bright-value)
-        );
-        --semi-bright-r: calc(
-            var(--darkest-r) + (var(--brightest-r) - var(--darkest-r)) *
-                var(--semi-bright-value)
-        );
-        --semi-bright-g: calc(
-            var(--darkest-g) + (var(--brightest-g) - var(--darkest-g)) *
-                var(--semi-bright-value)
-        );
-        --semi-bright-b: calc(
-            var(--darkest-b) + (var(--brightest-b) - var(--darkest-b)) *
-                var(--semi-bright-value)
-        );
-        --medium-r: calc(
-            var(--darkest-r) + (var(--brightest-r) - var(--darkest-r)) *
-                var(--medium-value)
-        );
-        --medium-g: calc(
-            var(--darkest-g) + (var(--brightest-g) - var(--darkest-g)) *
-                var(--medium-value)
-        );
-        --medium-b: calc(
-            var(--darkest-b) + (var(--brightest-b) - var(--darkest-b)) *
-                var(--medium-value)
-        );
-        --semi-dark-r: calc(
-            var(--darkest-r) + (var(--brightest-r) - var(--darkest-r)) *
-                var(--semi-dark-value)
-        );
-        --semi-dark-g: calc(
-            var(--darkest-g) + (var(--brightest-g) - var(--darkest-g)) *
-                var(--semi-dark-value)
-        );
-        --semi-dark-b: calc(
-            var(--darkest-b) + (var(--brightest-b) - var(--darkest-b)) *
-                var(--semi-dark-value)
-        );
-        --dark-r: calc(
-            var(--darkest-r) + (var(--brightest-r) - var(--darkest-r)) *
-                var(--dark-value)
-        );
-        --dark-g: calc(
-            var(--darkest-g) + (var(--brightest-g) - var(--darkest-g)) *
-                var(--dark-value)
-        );
-        --dark-b: calc(
-            var(--darkest-b) + (var(--brightest-b) - var(--darkest-b)) *
-                var(--dark-value)
-        );
-        --darker-r: calc(
-            var(--darkest-r) + (var(--brightest-r) - var(--darkest-r)) *
-                var(--darker-value)
-        );
-        --darker-g: calc(
-            var(--darkest-g) + (var(--brightest-g) - var(--darkest-g)) *
-                var(--darker-value)
-        );
-        --darker-b: calc(
-            var(--darkest-b) + (var(--brightest-b) - var(--darkest-b)) *
-                var(--darker-value)
-        );
-
+        --brighter-r:    calc(var(--darkest-r) + (var(--brightest-r) - var(--darkest-r)) * var(--brighter-value)); 
+        --brighter-g:    calc(var(--darkest-g) + (var(--brightest-g) - var(--darkest-g)) * var(--brighter-value)); 
+        --brighter-b:    calc(var(--darkest-b) + (var(--brightest-b) - var(--darkest-b)) * var(--brighter-value)); 
+        --bright-r:      calc(var(--darkest-r) + (var(--brightest-r) - var(--darkest-r)) * var(--bright-value)); 
+        --bright-g:      calc(var(--darkest-g) + (var(--brightest-g) - var(--darkest-g)) * var(--bright-value)); 
+        --bright-b:      calc(var(--darkest-b) + (var(--brightest-b) - var(--darkest-b)) * var(--bright-value)); 
+        --semi-bright-r: calc(var(--darkest-r) + (var(--brightest-r) - var(--darkest-r)) * var(--semi-bright-value)); 
+        --semi-bright-g: calc(var(--darkest-g) + (var(--brightest-g) - var(--darkest-g)) * var(--semi-bright-value)); 
+        --semi-bright-b: calc(var(--darkest-b) + (var(--brightest-b) - var(--darkest-b)) * var(--semi-bright-value)); 
+        --medium-r:      calc(var(--darkest-r) + (var(--brightest-r) - var(--darkest-r)) * var(--medium-value)); 
+        --medium-g:      calc(var(--darkest-g) + (var(--brightest-g) - var(--darkest-g)) * var(--medium-value)); 
+        --medium-b:      calc(var(--darkest-b) + (var(--brightest-b) - var(--darkest-b)) * var(--medium-value)); 
+        --semi-dark-r:   calc(var(--darkest-r) + (var(--brightest-r) - var(--darkest-r)) * var(--semi-dark-value)); 
+        --semi-dark-g:   calc(var(--darkest-g) + (var(--brightest-g) - var(--darkest-g)) * var(--semi-dark-value)); 
+        --semi-dark-b:   calc(var(--darkest-b) + (var(--brightest-b) - var(--darkest-b)) * var(--semi-dark-value)); 
+        --dark-r:        calc(var(--darkest-r) + (var(--brightest-r) - var(--darkest-r)) * var(--dark-value)); 
+        --dark-g:        calc(var(--darkest-g) + (var(--brightest-g) - var(--darkest-g)) * var(--dark-value)); 
+        --dark-b:        calc(var(--darkest-b) + (var(--brightest-b) - var(--darkest-b)) * var(--dark-value)); 
+        --darker-r:      calc(var(--darkest-r) + (var(--brightest-r) - var(--darkest-r)) * var(--darker-value)); 
+        --darker-g:      calc(var(--darkest-g) + (var(--brightest-g) - var(--darkest-g)) * var(--darker-value)); 
+        --darker-b:      calc(var(--darkest-b) + (var(--brightest-b) - var(--darkest-b)) * var(--darker-value)); 
+        
         --brighter: var(--brighter-r), var(--brighter-g), var(--brighter-b);
         --bright: var(--bright-r), var(--bright-g), var(--bright-b);
-        --semi-bright: var(--semi-bright-r), var(--semi-bright-g),
-            var(--semi-bright-b);
+        --semi-bright: var(--semi-bright-r), var(--semi-bright-g), var(--semi-bright-b);
         --medium: var(--medium-r), var(--medium-g), var(--medium-b);
         --semi-dark: var(--semi-dark-r), var(--semi-dark-g), var(--semi-dark-b);
         --dark: var(--dark-r), var(--dark-g), var(--dark-b);
@@ -273,18 +210,15 @@
         z-index: 100;
         transition: var(--default-color-transition);
     }
-
     #navbar a {
         color: var(--nav-text-color);
         display: contents;
     }
-
     #navbar ul {
         list-style: none;
         padding: 0;
         margin: 0;
     }
-
     #navbar ul li {
         display: inline-block;
         padding: 5px;
@@ -295,12 +229,10 @@
         margin-left: 30px;
         transition: 0.2s;
     }
-
     #navbar ul li:hover {
         color: var(--nav-hover-text-color);
         transition: 0.2s;
     }
-
     #navbar ul li#theme-toggle {
         right: 0;
         position: absolute;
@@ -310,6 +242,24 @@
     #navbar ul a li {
         font-weight: 600;
         font-size: large;
+    }
+
+    footer {
+        margin-top: var(--default-top-padding);
+        position: absolute;
+        height: fit-content;
+        text-align: center;
+        width: 100%;
+        left: 0;
+        background-color: var(--nav-color);
+    }
+    footer p {
+        padding: 0;
+        margin: 10px;
+    }
+    footer p,
+    footer a {
+        color: var(--nav-hover-text-color);
     }
 
     @media only screen and (max-width: 800px) {
